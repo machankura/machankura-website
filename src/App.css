@@ -1,38 +1,176 @@
-.App {
+::-webkit-scrollbar{
+  width: 10px;
+}
+::-webkit-scrollbar-track{
+  background-color: #fdd023;
+}
+::-webkit-scrollbar-thumb{
+  background-color: #241E1E;
+  border-radius: 15px;
+}
+html,
+body,
+main {
   text-align: center;
+  color: #fff;
+  background-color: #fdd023 !important;
+  background-image: url('./assets/images/map.svg');
+  background-size: 42%;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  background-attachment: fixed;
+  width: 100%;
+  overflow-x: hidden;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.app-section {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  /* font-size: calc(10px + 2vmin); */
 }
 
-.App-link {
-  color: #61dafb;
+body .text-muted {
+  color: #fff !important;
+}
+.home-intro{
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+/* hero section */
+.home-intro h1{
+  font-size: 75px;
+  line-height: 85px;
+  max-width: 800px;
+  font-weight: 900;
+  text-align: left;
+  margin-bottom: 20px;
+}
+.home-intro p{
+  font-size: 24px;
+  line-height: 30px;
+  max-width: 700px;
+  text-align: left;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+/* countries section */
+.countries-section h1{
+  font-size: 70px;
+  line-height: 80px;
+  font-weight: 900;
+  max-width: 800px;
+  margin-bottom: 20px;
+}
+.countries-section p{
+  font-size: 24px;
+  line-height: 30px;
+  max-width: 700px;
+}
+
+/* Why machankura */
+.why-section {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+.why-section h1{
+  font-size: 40px;
+  line-height: 45px;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+.why-section p{
+  font-size: 20px;
+  line-height: 24px;
+  max-width: 700px;
+}
+
+/* FAQs */
+
+.faq-section{
+  max-width: 800px;
+  overflow: hidden;
+}
+/* hero section */
+.faq-section h1{
+  font-size: 75px;
+  line-height: 85px;
+  font-weight: 900;
+  text-align: left;
+  margin-bottom: 20px;
+}
+.faq-section p{
+  font-size: 1rem;
+  line-height: 1.3;
+  text-align: left;
+}
+
+/* FAQ accordion */
+.accordion-button {
+  background-color: #ffd023!important;
+  color: #241E1E!important;
+  font-weight: 700!important;
+}
+
+.accordion-button:focus {
+  box-shadow: none;
+}
+
+.accordion-button:not(.collapsed) {
+  color: #212529;
+}
+.accordion-item {
+  border: 1px solid #000000!important;
+  border-right: 0!important;
+  border-left: 0!important;
+  border-radius: 0;
+}
+
+
+/* media queries */
+@media screen and (max-width:769px){
+  body {
+    background-size: 100%!important;
   }
-  to {
-    transform: rotate(360deg);
+  .home-intro h1 {
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+  }
+  .home-intro p {
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+  }
+  .countries-section h1 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .countries-section p {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .faq-section h1 {
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+  }
+  .faq-section p {
+    font-size: 16px;
+    line-height: 20px;
+    text-align: left;
+  }
+}
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+
+  > .col,
+  > [class*="col-"] {
+    padding-right: 0;
+    padding-left: 0;
   }
 }
