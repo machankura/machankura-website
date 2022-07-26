@@ -71,7 +71,7 @@ const HomePage = () => {
                 <Row className="d-flex justify-content-center mt-4 no-gutters" xs={2} md={3}>
                 {machankuraCountries.map(country => (
                     <Col className="d-flex justify-content-center mb-4" key={country.code}>
-                        <Card border="light" style={{ width: '18rem' }}>
+                        <Card border="light" style={{ width: '18rem', backgroundColor: "#212529", color: "#ffffff" }}>
                             <Card.Body>
                                 <Card.Title>
                                     <ReactCountryFlag
@@ -82,9 +82,9 @@ const HomePage = () => {
                                             height: '1.3em',
                                         }}
                                         title={country.name}
-                                    /> <span style={{verticalAlign: "middle"}}>{country.name}</span>
+                                    /> <span style={{verticalAlign: "bottom", fontWeight: "700"}}>{country.name}</span>
                                 </Card.Title>
-                                <Card.Text style={{fontSize: '0.875em', fontWeight: "700"}}>
+                                <Card.Text style={{fontSize: '1em', fontWeight: "900"}}>
                                 {country.ussd}
                                 </Card.Text>
                             </Card.Body>

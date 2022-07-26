@@ -174,7 +174,7 @@
     null,
     { title: "Send bitcoin", confirm: sendBitcoin },
     { title: "Receive bitcoin", confirm: receiveBitcoin },
-    { title: "Account details (balance and history)" },
+    { title: "Account details" },
     { title: "Buy goods/services" },
     { title: "PIN change/reset" },
     { title: "Exit" },
