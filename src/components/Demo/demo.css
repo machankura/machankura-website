@@ -129,6 +129,10 @@
     display: none;
   }
   
+  .accordion {
+    --bs-accordion-bg: unset !important;
+  }
+  
   [data-status="transition"] [data-action="quit"],
   [data-status="final"] [data-action="quit"]{
     display: unset;
@@ -161,6 +165,6 @@
   @media screen and (max-width: 769px){
     .phoneFrame {
       margin-bottom: 30px!important;
+      margin-top: 110px;
     }
-    .phone-btnSet {display: none;}
   }

@@ -103,12 +103,12 @@ const HomePage = () => {
                     <p>Bitcoin is for all of us. That's why it is important to build for the millions of people on the African continent with no reliable internet access.  </p>
                 </Col>
                 <Col>
-                <img alt="Look ma, no internet" src={no_internet_image} />
+                <img alt="Look ma, no internet" class="img-fluid" src={no_internet_image} />
                 </Col>
             </Row>
             <Row className="align-items-center" xs={1} md={2} style={{marginTop: "100px"}}>
                 <Col>
-                <img alt="lightning addresses" src={lightning_address} />
+                <img alt="lightning addresses" class="img-fluid"  src={lightning_address} />
                 </Col>
                 <Col>
                     <h1>Simple, straight-forward Lightning addresses!</h1>
@@ -121,7 +121,7 @@ const HomePage = () => {
                     <p>We are working on adding more integrations that make it possible for you to do more with your bitcoin. We understand not everyone wants to HODL</p>
                 </Col>
                 <Col>
-                <img alt="spend bitcoin" src={spend_bitcoin} />
+                <img alt="spend bitcoin" class="img-fluid"  src={spend_bitcoin} />
                 </Col>
             </Row>
         </div>
