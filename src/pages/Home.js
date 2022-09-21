@@ -65,7 +65,44 @@ const HomePage = () => {
         </div>
         <div className='app-section countries-section'>
             <h1>Live in {machankuraCountries.length} countries and counting...</h1>
-            <div class="row"> <div class="col s12 m4"><h2>Ghana </h2><p class="flow-text">*920*8333#</p></div><div class="col s12 m4"><h2>Kenya </h2><p class="flow-text">*483*8333#</p></div><div class="col s12 m4"> <h2>Malawi </h2><p class="flow-text">*384*8333#</p></div><div class="col s12 m4"> <h2>Namibia </h2><p class="flow-text">*142*8333#</p></div><div class="col s12 m4"> <h2>Nigeria </h2><p class="flow-text">*347*8333#</p></div><div class="col s12 m4"> <h2>South Africa </h2><p class="flow-text">*134*382*382#</p></div><div class="col s12 m4"> <h2>Tanzania </h2><p class="flow-text">*149*46*26#</p></div><div class="col s12 m4"> <h2>Uganda </h2><p class="flow-text">*284*8333#</p></div><div class="col s12 m4"> <h2>Zambia </h2><p class="flow-text">*384*8333#</p></div></div>
+            <div class="row">
+                <div class="col-sm-12 col-md-4">
+                    <h2>Ghana </h2>
+                    <p class="flow-text">*920*8333#</p>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <h2>Kenya </h2>
+                    <p class="flow-text">*483*8333#</p>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <h2>Malawi </h2>
+                    <p class="flow-text">*384*8333#</p>
+                </div>
+                <div class="col-sm-12 col-md-4"> 
+                    <h2>Namibia </h2>
+                    <p class="flow-text">*142*8333#</p>
+                </div>
+                <div class="col-sm-12 col-md-4"> 
+                    <h2>Nigeria </h2>
+                    <p class="flow-text">*347*8333#</p>
+                </div>
+                <div class="col-sm-12 col-md-4"> 
+                    <h2>South Africa </h2>
+                    <p class="flow-text">*134*382*382#</p>
+                </div>
+                <div class="col-sm-12 col-md-4"> 
+                    <h2>Tanzania </h2>
+                    <p class="flow-text">*149*46*26#</p>
+                </div>
+                <div class="col-sm-12 col-md-4"> 
+                    <h2>Uganda </h2>
+                    <p class="flow-text">*284*8333#</p>
+                </div>
+                <div class="col-sm-12 col-md-4"> 
+                    <h2>Zambia </h2>
+                    <p class="flow-text">*384*8333#</p>
+                </div>
+            </div>
         </div>
         <div className='why-section'>
             <Row className="align-items-center flex-column-reverse flex-md-row" xs={1} md={2} style={{marginTop: "100px"}}>
