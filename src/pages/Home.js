@@ -67,7 +67,7 @@ const HomePage = () => {
             <div class="row">
                 <div class="col"></div>
             </div>
-            <h1>Live in {machankuraCountries.length} countries and counting...</h1>
+            <h1>Live in 9 countries and counting...</h1>
             <div class="row center">
                 <div class="col-sm-12 col-md-4">
                     <h2>Ghana </h2>
