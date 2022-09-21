@@ -2,8 +2,14 @@ import React from 'react';
 import logo from '../assets/images/logo.svg';
 import { Container, Nav, Navbar, Button } from 'react-bootstrap';
 import { BsFillLightningFill } from "react-icons/bs";
+import { useLocation } from 'react-router-dom'
 
 function Header() {
+    let location = useLocation();
+
+    if (location.pathname == "/") {
+        return null
+    }
     return (
         <Navbar bg="transparent" variant="light" expand="lg">
             <Container>
