@@ -65,36 +65,7 @@ const HomePage = () => {
         </div>
         <div className='app-section countries-section'>
             <h1>Live in {machankuraCountries.length} countries and counting...</h1>
-            <Row>
-                <Col md={1}></Col>
-                <Col md={10}>
-                <Row className="d-flex justify-content-center mt-4 no-gutters" xs={2} md={3}>
-                {machankuraCountries.map(country => (
-                    <Col className="d-flex justify-content-center mb-4" key={country.code}>
-                        <Card border="light" style={{ width: '18rem', backgroundColor: "#212529", color: "#ffffff" }}>
-                            <Card.Body>
-                                <Card.Title>
-                                    <ReactCountryFlag
-                                        countryCode={country.code}
-                                        svg
-                                        style={{
-                                            width: '1.3em',
-                                            height: '1.3em',
-                                        }}
-                                        title={country.name}
-                                    /> <span style={{verticalAlign: "bottom", fontWeight: "700"}}>{country.name}</span>
-                                </Card.Title>
-                                <Card.Text style={{fontSize: '1em', fontWeight: "900"}}>
-                                {country.ussd}
-                                </Card.Text>
-                            </Card.Body>
-                        </Card>
-                    </Col>
-                ))}
-            </Row>
-                </Col>
-                <Col md={1}></Col>
-            </Row>
+            <div class="row"> <div class="col s12 m4"><h2>Ghana </h2><p class="flow-text">*920*8333#</p></div><div class="col s12 m4"><h2>Kenya </h2><p class="flow-text">*483*8333#</p></div><div class="col s12 m4"> <h2>Malawi </h2><p class="flow-text">*384*8333#</p></div><div class="col s12 m4"> <h2>Namibia </h2><p class="flow-text">*142*8333#</p></div><div class="col s12 m4"> <h2>Nigeria </h2><p class="flow-text">*347*8333#</p></div><div class="col s12 m4"> <h2>South Africa </h2><p class="flow-text">*134*382*382#</p></div><div class="col s12 m4"> <h2>Tanzania </h2><p class="flow-text">*149*46*26#</p></div><div class="col s12 m4"> <h2>Uganda </h2><p class="flow-text">*284*8333#</p></div><div class="col s12 m4"> <h2>Zambia </h2><p class="flow-text">*384*8333#</p></div></div>
         </div>
         <div className='why-section'>
             <Row className="align-items-center flex-column-reverse flex-md-row" xs={1} md={2} style={{marginTop: "100px"}}>
