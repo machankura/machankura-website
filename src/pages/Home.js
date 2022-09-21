@@ -68,7 +68,7 @@ const HomePage = () => {
                 <div class="col"></div>
             </div>
             <h1>Live in {machankuraCountries.length} countries and counting...</h1>
-            <div class="row">
+            <div class="row center">
                 <div class="col-sm-12 col-md-4">
                     <h2>Ghana </h2>
                     <p class="flow-text">*920*8333#</p>
