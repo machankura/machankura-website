@@ -64,6 +64,9 @@ const HomePage = () => {
             </Row>
         </div>
         <div className='app-section countries-section'>
+            <div class="row">
+                <div class="col"></div>
+            </div>
             <h1>Live in {machankuraCountries.length} countries and counting...</h1>
             <div class="row">
                 <div class="col-sm-12 col-md-4">
