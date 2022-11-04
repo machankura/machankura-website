@@ -46,7 +46,6 @@ const FAQsPage = () => {
                         <li>South Africa: *134*382*382#</li>
                         <li>Tanzania: *149*46*26#</li>
                         <li>Uganda: *284*8333#</li>
-                        <li>Uganda: *384*8333#</li>
                     </ul>
                 </Accordion.Body>
             </Accordion.Item>
