@@ -67,7 +67,7 @@ const HomePage = () => {
             <div class="row">
                 <div class="col"></div>
             </div>
-            <h1>Live in 9 countries and counting...</h1>
+            <h1>Live in 8 countries and counting...</h1>
             <div class="row center">
                 <div class="col-sm-12 col-md-4">
                     <h2>Ghana </h2>
@@ -94,8 +94,8 @@ const HomePage = () => {
                     <p class="flow-text">*134*382*382#</p>
                 </div>
                 <div class="col-sm-12 col-md-4"> 
-                    <h2>Tanzania </h2>
-                    <p class="flow-text">*149*46*26#</p>
+                    <h2 style={{textDecoration: "line-through"}}>Tanzania </h2>
+                    <p class="flow-text" style={{textDecoration: "line-through"}}>*149*46*26#</p>
                 </div>
                 <div class="col-sm-12 col-md-4"> 
                     <h2>Uganda </h2>
