@@ -24,7 +24,7 @@ const FAQsPage = () => {
             <Accordion.Item eventKey="whatislightning">
                 <Accordion.Header>What is Lightning?</Accordion.Header>
                 <Accordion.Body style={{textAlign: "left", fontSize: "1rem", lineHeight: "1.5"}}>
-                    <p>Lightning is the smarter way to use Bitcoin that allows for smaller, faster, cheaper, and more private payments. Essentially, the lightning network enables Bitcoin to scale and makes services like Machankura possible</p>
+                    <p>Lightning is the smarter way to use Bitcoin that allows for smaller, faster, cheaper, and more private payments. Essentially, the lightning network enables Bitcoin to scale and makes services like Machankura possible.</p>
                 </Accordion.Body>
             </Accordion.Item>
             <Accordion.Item eventKey="whataresatoshis">
@@ -46,7 +46,7 @@ const FAQsPage = () => {
                         <li>South Africa: *134*382*382#</li>
                         <li>Tanzania: *149*46*26#</li>
                         <li>Uganda: *284*8333#</li>
-                        <li>Uganda: *384*8333#</li>
+                        <li>Zambia: *384*8333#</li>
                     </ul>
                 </Accordion.Body>
             </Accordion.Item>
@@ -59,7 +59,7 @@ const FAQsPage = () => {
             <Accordion.Item eventKey="whoismachankurafor">
                 <Accordion.Header>Who is Machankura for?</Accordion.Header>
                 <Accordion.Body style={{textAlign: "left", fontSize: "1rem", lineHeight: "1.5"}}>
-                    <p>Machankura was built for Africans in order to drive Bitcoin adoption on the continent and offer a more contextualized experience where internet penetration is low and smartphones aren’t mainstream.<br/>Currently, Machankura is available in 6 African countries: Ghana, Kenya, Malawi, Nigeria, South Africa, and Uganda.</p>
+                    <p>Machankura was built for Africans in order to drive Bitcoin adoption on the continent and offer a more contextualized experience where internet penetration is low and smartphones aren’t mainstream.<br/>Currently, Machankura is available in 7 African countries: Ghana, Kenya, Malawi, Nambia, Nigeria, South Africa, and Zambia.</p>
                 </Accordion.Body>
             </Accordion.Item>
             <Accordion.Item eventKey="doineedinternetaccess">
