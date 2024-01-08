@@ -52,8 +52,8 @@ const HomePage = () => {
             <Row className="justify-content-center align-items-center flex-column-reverse flex-md-row" xs={1} md={2}>
                 <Col>
                 <h1>Use Bitcoin on any mobile phone!</h1>
-                <p className='small-title'>Machankura turns your phone into a lightning wallet allowing you to send and receive bitcoin with just your mobile number</p>
-                {/* check if country code in state matches country code of any machankuraCountry and return it's dial code */}
+                <p className='small-title'>Machankura turns your phone into a lightning wallet allowing you to send and receive bitcoin with just your mobile number.</p>
+                {/* check if country code in state matches country code of any machankura Country and return its dial code */}
                 {isMachankuraCountry && (
                     <h2>Dial the code yo</h2>
                 )}
@@ -67,7 +67,7 @@ const HomePage = () => {
             <div class="row">
                 <div class="col"></div>
             </div>
-            <h1>Live in 8 countries and counting...</h1>
+            <h1>Live in 7 countries and counting...</h1>
             <div class="row center">
                 <div class="col-sm-12 col-md-4">
                     <h2>Ghana </h2>
@@ -123,13 +123,13 @@ const HomePage = () => {
                 </Col>
                 <Col>
                     <h1>Simple, straight-forward Lightning addresses!</h1>
-                    <p>For simplicity, users just need to know your phone number to send you bitcoin. If you prefer more anonymity, you can quickly setup a username to replace your phone number </p>
+                    <p>For simplicity, users just need to know your phone number to send you bitcoin. If you prefer more anonymity, you can quickly setup a username to replace your phone number.</p>
                 </Col>
             </Row>
             <Row className="align-items-center flex-column-reverse flex-md-row" xs={1} md={2} style={{marginTop: "100px"}}>
                 <Col>
                     <h1>Spend your bitcoin!</h1>
-                    <p>We are working on adding more integrations that make it possible for you to do more with your bitcoin. We understand not everyone wants to HODL</p>
+                    <p>We are working on adding more integrations that make it possible for you to do more with your bitcoin. We understand not everyone wants to HODL.</p>
                 </Col>
                 <Col>
                 <img alt="spend bitcoin" class="img-fluid"  src={spend_bitcoin} />
